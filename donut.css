@@ -68,7 +68,7 @@ canvas{
 .pie-text {
     width: 50%;
     transform: rotate(-37deg) translate(-5%, 44%);
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-family: helvetica;
     font-weight: bold;
@@ -78,6 +78,7 @@ canvas{
     align-items: center;
     justify-content: center;
     padding: 0px 2%;
+    flex-direction: column;
 }
 
 #part1 {
@@ -141,5 +142,11 @@ canvas{
   to {
     transform: rotate(72deg);
   }
+}
+
+
+.arc-text {
+  position: relative;
+  min-height: 25px;
 }
 
