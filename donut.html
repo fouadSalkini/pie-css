@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./donut.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="donut-chart-block block">
+            <div class="donut-chart" style="--donut-width:500">
+                <div id="part1" class="portion-block">
+                    <div class="circle">
+                        <div class="pie-text">
+                            <div class="arc-text">
+                                Make trade work for people and our planet
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="part2" class="portion-block">
+                    <div class="circle">
+                        <div class="pie-text">
+                            <div class="arc-text">
+                                Make action on climate change everyone's business
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="part3" class="portion-block">
+                    <div class="circle">
+                        <div class="pie-text">
+                            <div class="arc-text">
+                                Make technology work for all
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="part4" class="portion-block">
+                    <div class="circle">
+                        <div class="pie-text">
+                            <div class="arc-text">
+                                Stop the global rise in inquelaity
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="part5" class="portion-block">
+                    <div class="circle">
+                        <div class="pie-text">
+                            <div class="arc-text">
+                                Lead for the long term
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="donut-center"></div>        
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://tympanus.net/Development/Arctext/js/jquery.arctext.js"></script>
+
+    <script>
+        var arcs = document.querySelectorAll(".arc-text");
+        for(var i = 0; i< arcs.length; i++){
+            //new CircleType(arcs[i]).radius(300);
+        }
+        // $("#fouad").arctext({radius: 300})
+    </script>
+</body>
+<html
